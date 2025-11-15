@@ -1,0 +1,46 @@
+/* Styles for store product table */
+.store-wrapper {
+  max-width: 900px;
+  margin: 1.5rem auto;
+  padding: 0 1rem;
+}
+
+.store-wrapper h1 {
+  margin-bottom: 0.5rem;
+}
+
+.store-status {
+  margin: 0.5rem 0;
+  color: #333;
+}
+.store-status.error { color: red; }
+
+.table-container { margin-top: 1rem; overflow-x: auto; }
+
+.products-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.products-table th,
+.products-table td {
+  text-align: left;
+  padding: 0.6rem 0.5rem;
+  border-bottom: 1px solid #e6e6e6;
+  vertical-align: middle;
+}
+
+.products-table thead th {
+  font-weight: 600;
+  background: #fafafa;
+}
+
+.img-cell img {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+}
+
+.no-results {
+  padding: 1rem 0;
+  color: #777;
+}

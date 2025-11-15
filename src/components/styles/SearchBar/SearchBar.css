@@ -1,0 +1,24 @@
+/* Basic styling for the search bar */
+.searchbar-wrapper {
+  margin: 1rem 0;
+}
+
+.search-input {
+  width: 100%;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: #4a90e2;
+  box-shadow: 0 0 0 3px rgba(74,144,226,0.12);
+}
+
+.searchbar-wrapper + .results-note {
+  margin-top: 0.5rem;
+  color: #666;
+}
